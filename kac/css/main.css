@@ -1,42 +1,4 @@
-/*
-Theme Name: Developer
-Theme URI: http://themewagon.com/demo/Developer/
-Author: ThemeWagon
-Author URI: http://themewagon.com/
-Description: Slick One page HTML 5 template powered by Bootstrap 3.
-Version: 1.14.11
-License: GNU General Public License v3
-License URI: http://www.gnu.org/licenses/gpl-3.0.txt
-Tags: blue, white, one page, parallax, responsive-layout, full-width-template
-Text Domain: developer
-*/
 
-/**
-* Table of Contents:
-*
-* 01.0 - Global
-* 02.0 - Header
-* 03.0 - Navigation
-* 04.0 - Blur styles
-* 05.0 - Home
-* 06.0 - Latest Works
-* 	 06.1 - isotope (http://isotope.metafizzy.co/)
-*	 06.2 - Image Hover Effect
-* 07.0 - More About Me
-* 	 07.1 - Animated Number
-* 08.0 - Testimonials
-* 	 08.1 - Owl Carousel (http://owlgraphic.com/owlcarousel/)
-* 09.0 - Contact
-*	 09.1 - Social Icon
-* 10.0 - Footer
-* 11.0 - Responsive styles
-* -----------------------------------------------------------------------------
-*/
-
-
-/* ///////////////////////////////////////////////////////////////////// 
-//  01 - Global 
-/////////////////////////////////////////////////////////////////////*/
 @font-face {
 	font-family: 'Pacifico';
 	font-style: normal;
@@ -64,7 +26,7 @@ h1, h2, h3, h4, h5,h6 {
 
 body {
 	font: 15px/23px "Lucida Sans","Liberation Sans","Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
-	background-color: rgb(224, 247, 246);
+	background-color: rgb(204, 233, 231);
 
 }
 
@@ -85,12 +47,8 @@ body {
     font-size: 18px;
 }
 
-/*////////////////////////////////////////////////////////////////////////
-//  02 - Header
-///////////////////////////////////////////////////////////////////////*/
-
 #header {
-	background: url(../img/bg/header-bg.jpg) no-repeat center top fixed;
+	background: url(../img/bg/header-bg.jpeg) no-repeat center top fixed;
 	background-size: cover;
 }
 
@@ -125,10 +83,6 @@ body {
 	text-decoration: none;
 }
 
-/*////////////////////////////////////////////////////////////////////////
-//  03 - Navigation
-///////////////////////////////////////////////////////////////////////*/
-
 .navbar {
 	border-radius: 0;
 	margin: 0;
@@ -150,23 +104,13 @@ body {
 	transition: 0.5s background linear;
 }
 
-/* .site-nav ul li a:hover {
-	background: rgba(255, 255, 255, 0.11);
-} */
-
 .site-nav ul li a:hover, .site-nav ul li a:focus
 {
 	background-color: rgba(0, 255, 255, 0.58);
 }
 
-/*////////////////////////////////////////////////////////////////////////
-//  04 - Blur styles
-///////////////////////////////////////////////////////////////////////*/
-
 #overlay-1 {
-	/* background-color: rgba(32, 30, 30, 0.52); */
 	background-color: rgba(33, 32, 42, 0.44);
-	/* background-color: rgba(17, 55, 46, 0.75); */
 	position: relative;
 }
 
@@ -177,9 +121,7 @@ body {
 
 .overlay-3 {
 	padding: 60px 0;
-	/* background-color: rgba(9, 20, 39, 0.83); */
-	/* background-color: rgba(24, 77, 77, 0.93); */
-	background-color: rgba(33, 103, 88, 0.9);
+	background-color: rgba(24, 80, 68, 0.9);
 }
 
 .overlay {
@@ -187,11 +129,6 @@ body {
     width: 100%;
     height: 100%;
 }
-
-
-/*////////////////////////////////////////////////////////////////////////
-//  05 - Home
-///////////////////////////////////////////////////////////////////////*/
 
 .middle {
 	padding-top: 200px;
@@ -201,9 +138,6 @@ body {
     font-size: 100px;
     margin: 0;
     margin-bottom: 15px;  
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    /* font-family: 'Niconne', cursive; */
     font-weight: 400;
     font-family: 'Rouge Script', cursive;
     line-height: 90px;
@@ -260,10 +194,6 @@ body {
 	background-color: rgba(32, 36, 47, 0.94);
 }
 
-/*////////////////////////////////////////////////////////////////////////
-//  06 - Latest works
-///////////////////////////////////////////////////////////////////////*/
-
 #portfolio {
 	padding: 60px 0;
 }
@@ -289,10 +219,6 @@ body {
 	position: relative;
 }
 
-/*////////////////////////////////////////////////////////////////////////
-//  06 - Latest works > isotope
-///////////////////////////////////////////////////////////////////////*/
-
 .isotope:after {
   content: '';
   display: block;
@@ -312,9 +238,6 @@ body {
 }
 
 .btn-view {
-	/* border: 1px solid #35405f;
-	color: #35405f;
-	border-radius: 0; */
 	text-transform: uppercase;
 	color: lightseagreen;
 	border: 1px solid rgba(32, 178, 170, 0.86);
@@ -332,10 +255,6 @@ body {
 	border: 1px solid lightseagreen;
 	background-color: rgba(32, 178, 170, 0.86);
 }
-
-
-/* ==============================  Image hover effect ============================== */
-
 
 .effect-zoe:hover figcaption, 
 .effect-zoe:hover h2, 
@@ -389,30 +308,6 @@ body {
 	font-size: 22px;
 }
 
-/* ///////////////////////////////////////////////////////////////////// 
-//  07 - More About Me 
-/////////////////////////////////////////////////////////////////////*/
-
-/* #services {
-	background: url(../img/bg/bg-2.jpg) no-repeat center center fixed;
-	background-size: cover;
-	color: #fff;
-}
-
-.pro-stat {
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-	font-style: italic;
-}
-
-.proj-name {
-	font-family: Pacifico;
-	font-size: 150px;
-	text-align: center;
-	line-height: 90%;
-	margin-bottom: 80px;
-} */
 #services .block-heading h1 {
     color: #fff;
 	
@@ -422,9 +317,6 @@ body {
     font-size: 55px;
 	word-spacing: 5px;
 }
-
-
-/* ============================  animated  numbers   ==================================*/
 
 .parallax{
     width: 100%;
@@ -466,64 +358,6 @@ ul.numbersList span{
     position: relative;
 }
 
-
-/* ///////////////////////////////////////////////////////////////////// 
-//  08 - Testimonials
-/////////////////////////////////////////////////////////////////////*/
-
-#testimonials {
-    padding: 60px 0;
-}
-
-#testimonials .block-heading{
-	margin-bottom: 0px;
-}
-
-.testimonial p {
-    line-height: 34px;
-    margin-top: 20px;
-}
-
-#testimonials .block-heading h1
-{
-	color: rgb(0, 129, 129);
-	font-family: 'Milonga', cursive;
-	font-weight: 400;
-	font-size: 55px;
-}
-
-#testimonials .testimonial {
-	padding: 25px;
-	cursor: -webkit-grab;
-}
-
-#testimonials .testimonial > img {
-	border-radius: 100%;
-	margin-bottom: 15px;
-}
-
-/* ///////////////////////////////////////////////////////////////////// 
-//  08 - Testimonials > Owl Carousel
-/////////////////////////////////////////////////////////////////////*/
-
-.owl-carousel {
-	z-index: 0;
-}
-
-.owl-carousel .owl-item img {
-	display: inline-block;
-	width: inherit;
-}
-
-.carousel-control.left,
-.carousel-control.right {
-    background: none;
-}
-
-/* ///////////////////////////////////////////////////////////////////// 
-//  09 - Contact
-/////////////////////////////////////////////////////////////////////*/
-
 #contact {
 	background: url(../img/bg/contact-bg.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -545,6 +379,7 @@ ul.numbersList span{
     line-height: 36px;
     margin-top: 25px;
 }
+
 .
 .contact-info i {
     width: 40px;
@@ -608,11 +443,6 @@ input[type="submit"]:hover {
    color: #fff;  
 }
 
-
-/* ///////////////////////////////////////////////////////////////////// 
-//  09 - contact > Social
-/////////////////////////////////////////////////////////////////////*/
-
 .social-box {
     list-style-type: none;
     padding-left: 71px;
@@ -672,10 +502,6 @@ input[type="submit"]:hover {
 	background-color: transparent;
 	color: #fff;
 }
-
-/* ///////////////////////////////////////////////////////////////////// 
-//  10 - Footer
-/////////////////////////////////////////////////////////////////////*/
 
 #site-footer {
     /* background-color: #35405f; */
